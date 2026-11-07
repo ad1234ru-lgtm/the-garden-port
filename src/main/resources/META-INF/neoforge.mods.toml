@@ -1,0 +1,24 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "LGPLv3"
+
+[[mods]]
+modId = "the_garden"
+version = "1.0.0"
+displayName = "The Garden"
+authors = "LudoCrypt (Ported to NeoForge 1.21.1)"
+description = "The Garden ported to NeoForge 1.21.1"
+
+[[dependencies.the_garden]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.the_garden]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
